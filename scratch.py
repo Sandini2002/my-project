@@ -1,4 +1,4 @@
-a=20
-b=15
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
 tot=a+b
-print(tot)
+print(f"Total of {a} + {b} =", tot)
